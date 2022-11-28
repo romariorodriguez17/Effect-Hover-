@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: grey;
+}
+
+.wrapper{
+width:400px;
+}
+.imagen,.foto{
+will-change: transform;
+transition: transform 0.3s;
+}
+.imagen{
+    overflow: hidden;
+}
+.foto{
+    width: 100%;
+}
+.wrapper:hover .imagen{ 
+    transform: scale(0.9);
+
+}
+.wrapper:hover .foto{
+    transform: scale(1.111);
+}
